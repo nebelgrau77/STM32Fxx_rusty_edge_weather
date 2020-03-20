@@ -14,6 +14,8 @@ Dataset is purely synthetic, labelled according to some simple rules with mild r
  
 At the moment readings from the sensor are simulated with trimpots read by the ADC.
 
+![](edge.gif)
+
 
 Current problems: 
 * cannot use BME280 sensor as its driver requires BlockingI2C, not available in the STMF4xx HAL crate
